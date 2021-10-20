@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 // const path = require('path');
-const uuid = require('./helpers/uuid');
+const uuid = require('../helpers/uuid');
 const api = require('express').Router();
 
 // Get method to read data from API
@@ -38,8 +38,6 @@ api.post('/api/notes', (req, res)=>{
             res.json(newNote);
         }
     })
-    
-
     })
 })
 
