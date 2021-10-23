@@ -10,13 +10,13 @@ const html = require('./routes/htmlRoute');
 // requiring db.json
 // const notesList = require('./db/db.json');
 
-app.use('/api', api);
-app.use('/html',html);
-
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
+
+app.use(api);
+app.use(html);
 
 // console log listening to port
 app.listen(PORT, () => {
