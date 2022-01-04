@@ -7,7 +7,7 @@ Heroku-deployed application that can be used by anyone to write and save notes. 
 
 ## Link for deployed application in Heroku:
 
-https://quiet-cove-82475.herokuapp.com/
+https://my-todolist.herokuapp.com/
 
 ## Video demonstration
 
